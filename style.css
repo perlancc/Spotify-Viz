@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: white;
-    font-family: sans-serif, ;
+    font-family: 'Inter', sans-serif;
 }
 
 .title{
@@ -28,4 +28,45 @@ img {
 
 .info-section ul {
     list-style-type: none;
+}
+
+.result-section{
+    background-color: #1e1e1e;
+
+    padding: 20px;
+    border-radius: 10px; /*round border*/
+    margin-bottom: 40px;
+}
+
+#result-container {
+    text-align: center;
+}
+
+.result-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.spotify-button, .result-button{
+    background-color: black;
+    color: #1ed760;
+    font-size: 1rem;
+
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+}
+
+.result-card{
+    background-color: #282828;
+    color: white;
+
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.result-intro-text{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
